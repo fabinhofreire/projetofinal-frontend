@@ -1,0 +1,239 @@
+body{
+  font-family: 'Podkova', serif; letter-spacing: 1px; font-size: 16px;
+}
+
+a {
+  color: red;
+}
+a:hover {
+text-decoration:none; 
+}
+
+/* HEADER */
+
+.active{
+  background-color: darkred;
+}
+
+.nav-link{
+  color:white !important;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: red;
+}
+
+.nav-link.active {
+color: black !important;
+}
+
+nav img {
+  width: 50px;
+  margin-right: 40px;
+}
+
+nav object {
+  width: 50px;
+  margin-right: 40px;
+}
+
+nav {font-family: 'Podkova', serif; text-transform: uppercase; letter-spacing: 1px; font-size: 24px;
+background: #080808;
+box-shadow: 0 5px 10px rgba(128, 128, 128, 0.281);
+}
+
+.nav-item {
+margin: 0 5px;
+}
+
+/* Album */
+#album {
+background-color: #666666;
+}
+
+.titulo {
+background-color: darkred;
+font-family: 'Podkova', serif;
+letter-spacing: 1px;
+font-size: 24px;
+padding: 10px 180px 10px 10px;
+color: white;
+margin-top: 80px;
+}
+
+
+/* MAIN --------------------------------------------- */
+
+.bg-imagem{
+  background-image: url(/imgs/bg.svg);
+  height: 50vw;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+/* IMG ALBUM */
+.imgalbum{
+  background-image: url(/imgs/album-titas.png);
+  height: 50vw;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+#album img {
+width: 100%;
+}
+
+/* AGENDA */
+
+#agenda td{
+  /* ajustando largura das colunas para um valor igual para todas */
+  width: 14.29%;
+  height: 60px;
+}
+
+#agenda th{
+  background-color: #666666;
+  color: whitesmoke;
+}
+
+#agenda td.bg-secondary{
+  color: darkgray;
+}
+
+#agenda td.bg-danger{
+  color: whitesmoke;
+}
+
+.card-text {
+color: black;
+}
+
+.card-title {
+color: black;
+}
+
+
+/* TOUR */
+
+#tour {
+background-color: black;
+color: #f2f2f2;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+.nav-pag {
+  background-color: transparent;
+}
+
+.page-link {
+font-size: 16px;
+color: #666666
+}
+
+
+.page-link:hover {
+color: red;
+}
+
+.page-link a {
+color: darkred;
+}
+
+#tour .btn.btn-outline-light.mx-auto.mb-4 {
+
+}
+
+/* fotos slides */
+
+.bi.bi-arrow-right-square-fill, .bi.bi-arrow-left-square-fill {
+color: red;
+}
+
+#fotos {
+background: #212121;
+}
+
+/* CONTATO */
+.bg-imagem1{
+  background-image: url(/imgs/bg-contato.png);
+  height: 50vw;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+/* formulario contato */
+
+input[type=text], select{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  width: 100%;
+  background-color: darkred;
+  color: white;
+  padding: 16px;
+  margin:  8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: red;
+}
+ 
+.bgimg-tit {
+margin-top: 380px;
+}
+
+#contato {
+background: black;
+}
+
+ /* AREA DO FA */
+
+/* bg-imagem2{
+  background-image: url(/imgs/bg-area-fa.png);
+  height: 50vw;
+  background-size: cover;
+  background-repeat: no-repeat; 
+} */
+
+#areadofa {
+background: url(/imgs/bg-area-fa.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+color: white;
+}
+
+.titulofa {background-color: goldenrod;
+font-family: 'Podkova', serif;
+letter-spacing: 1px;
+font-size: 24px;
+padding: 10px 180px 10px 10px;
+color: white;
+margin-top: 80px;
+}
+
+#loginFa {
+width: 280px;
+}
+
+/* -------------------------------------------- */
+/* FOOOTER */
+
+footer{
+  height: 100px;
+  background: black
+}
+
